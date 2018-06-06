@@ -33,12 +33,7 @@
         },
         {
           "groupName": "Others",
-          "list": [
-            {
-              "path": "/teste",
-              "title": "Teste"
-            }
-          ]
+          "list": []
         }
       ]
     }
@@ -77,12 +72,7 @@
         },
         {
           "groupName": "Others",
-          "list": [
-            {
-              "path": "/teste",
-              "title": "Teste"
-            }
-          ]
+          "list": []
         }
       ]
     }
