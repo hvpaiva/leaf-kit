@@ -163,8 +163,9 @@ const webpackConfig = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './examples/index.tpl',
-      filename: './index.html',
-      favicon: './examples/favicon.ico'
+      filename: './index.html'
+      // TODO: Incluir quando houver favicon
+      // favicon: './examples/favicon.ico'
     }),
     new CopyWebpackPlugin([
       { from: 'examples/versions.json' }

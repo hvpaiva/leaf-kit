@@ -1,0 +1,186 @@
+@import "common/var";
+
+@font-face {
+  font-family: 'element-icons';
+  src: url('#{$--font-path}/element-icons.woff') format('woff'), /* chrome, firefox */
+  url('#{$--font-path}/element-icons.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  font-weight: normal;
+  font-style: normal
+}
+
+[class^="lf-icon-"], [class*=" lf-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'element-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lf-icon-info:before { content: "\e61a"; }
+
+.lf-icon-error:before { content: "\e62c"; }
+
+.lf-icon-success:before { content: "\e62d"; }
+
+.lf-icon-warning:before { content: "\e62e"; }
+
+.lf-icon-question:before { content: "\e634"; }
+
+.lf-icon-back:before { content: "\e606"; }
+
+.lf-icon-arrow-left:before { content: "\e600"; }
+
+.lf-icon-arrow-down:before { content: "\e603"; }
+
+.lf-icon-arrow-right:before { content: "\e604"; }
+
+.lf-icon-arrow-up:before { content: "\e605"; }
+
+.lf-icon-caret-left:before { content: "\e60a"; }
+
+.lf-icon-caret-bottom:before { content: "\e60b"; }
+
+.lf-icon-caret-top:before { content: "\e60c"; }
+
+.lf-icon-caret-right:before { content: "\e60e"; }
+
+.lf-icon-d-arrow-left:before { content: "\e610"; }
+
+.lf-icon-d-arrow-right:before { content: "\e613"; }
+
+.lf-icon-minus:before { content: "\e621"; }
+
+.lf-icon-plus:before { content: "\e62b"; }
+
+.lf-icon-remove:before { content: "\e635"; }
+
+.lf-icon-circle-plus:before { content: "\e601"; }
+
+.lf-icon-remove-outline:before { content: "\e63c"; }
+
+.lf-icon-circle-plus-outline:before { content: "\e602"; }
+
+.lf-icon-close:before { content: "\e60f"; }
+
+.lf-icon-check:before { content: "\e611"; }
+
+.lf-icon-circle-close:before { content: "\e607"; }
+
+.lf-icon-circle-check:before { content: "\e639"; }
+
+.lf-icon-circle-close-outline:before { content: "\e609"; }
+
+.lf-icon-circle-check-outline:before { content: "\e63e"; }
+
+.lf-icon-zoom-out:before { content: "\e645"; }
+
+.lf-icon-zoom-in:before { content: "\e641"; }
+
+.lf-icon-d-caret:before { content: "\e615"; }
+
+.lf-icon-sort:before { content: "\e640"; }
+
+.lf-icon-sort-down:before { content: "\e630"; }
+
+.lf-icon-sort-up:before { content: "\e631"; }
+
+.lf-icon-tickets:before { content: "\e63f"; }
+
+.lf-icon-document:before { content: "\e614"; }
+
+.lf-icon-goods:before { content: "\e618"; }
+
+.lf-icon-sold-out:before { content: "\e63b"; }
+
+.lf-icon-news:before { content: "\e625"; }
+
+.lf-icon-message:before { content: "\e61b"; }
+
+.lf-icon-date:before { content: "\e608"; }
+
+.lf-icon-printer:before { content: "\e62f"; }
+
+.lf-icon-time:before { content: "\e642"; }
+
+.lf-icon-bell:before { content: "\e622"; }
+
+.lf-icon-mobile-phone:before { content: "\e624"; }
+
+.lf-icon-service:before { content: "\e63a"; }
+
+.lf-icon-view:before { content: "\e643"; }
+
+.lf-icon-menu:before { content: "\e620"; }
+
+.lf-icon-more:before { content: "\e646"; }
+
+.lf-icon-more-outline:before { content: "\e626"; }
+
+.lf-icon-star-on:before { content: "\e637"; }
+
+.lf-icon-star-off:before { content: "\e63d"; }
+
+.lf-icon-location:before { content: "\e61d"; }
+
+.lf-icon-location-outline:before { content: "\e61f"; }
+
+.lf-icon-phone:before { content: "\e627"; }
+
+.lf-icon-phone-outline:before { content: "\e628"; }
+
+.lf-icon-picture:before { content: "\e629"; }
+
+.lf-icon-picture-outline:before { content: "\e62a"; }
+
+.lf-icon-delete:before { content: "\e612"; }
+
+.lf-icon-search:before { content: "\e619"; }
+
+.lf-icon-edit:before { content: "\e61c"; }
+
+.lf-icon-edit-outline:before { content: "\e616"; }
+
+.lf-icon-rank:before { content: "\e632"; }
+
+.lf-icon-refresh:before { content: "\e633"; }
+
+.lf-icon-share:before { content: "\e636"; }
+
+.lf-icon-setting:before { content: "\e638"; }
+
+.lf-icon-upload:before { content: "\e60d"; }
+
+.lf-icon-upload2:before { content: "\e644"; }
+
+.lf-icon-download:before { content: "\e617"; }
+
+.lf-icon-loading:before { content: "\e61e"; }
+
+.lf-icon-loading {
+  animation: rotating 2s linear infinite;
+}
+
+.lf-icon--right {
+  margin-left: 5px;
+}
+.lf-icon--left {
+  margin-right: 5px;
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
