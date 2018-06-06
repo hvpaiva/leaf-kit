@@ -1,0 +1,90 @@
+{
+  "pt-BR": [
+    {
+      "name": "Changelog",
+      "path": "/changelog"
+    },
+    {
+      "name": "Desenvolvimento",
+      "children": []
+    },
+    {
+      "name": "Componentes",
+      "groups": [
+        {
+          "groupName": "Basic",
+          "list": []
+        },
+        {
+          "groupName": "Form",
+          "list": []
+        },
+        {
+          "groupName": "Data",
+          "list": []
+        },
+        {
+          "groupName": "Notice",
+          "list": []
+        },
+        {
+          "groupName": "Navigation",
+          "list": []
+        },
+        {
+          "groupName": "Others",
+          "list": [
+            {
+              "path": "/teste",
+              "title": "Teste"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "en-US": [
+    {
+      "name": "Changelog",
+      "path": "/changelog"
+    },
+    {
+      "name": "Desenvolvimento",
+      "children": []
+    },
+    {
+      "name": "Componentes",
+      "groups": [
+        {
+          "groupName": "Basic",
+          "list": []
+        },
+        {
+          "groupName": "Form",
+          "list": []
+        },
+        {
+          "groupName": "Data",
+          "list": []
+        },
+        {
+          "groupName": "Notice",
+          "list": []
+        },
+        {
+          "groupName": "Navigation",
+          "list": []
+        },
+        {
+          "groupName": "Others",
+          "list": [
+            {
+              "path": "/teste",
+              "title": "Teste"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
